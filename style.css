@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mukta&family=Playfair+Display&display=swap');
 
 body {
-   font-family: mukta, sans-serif;
+   font-family: "Mukta", sans-serif;
    padding-top: 60px;
    background-color: #ccc;
 }
@@ -11,7 +11,7 @@ body {
 
 nav {
    position: fixed;
-   bottom: 0;
+   top: 0;
    left: 0;
    background-color: #000;
    width: 100%;
@@ -53,9 +53,8 @@ nav ul li a:hover {
 }
 
 #image {
-   max-width: 100%;
+   width: 100%;
    display: block;
-   margin: auto;
 }
 
 #img-div {
@@ -66,6 +65,7 @@ nav ul li a:hover {
 #tribute-info {
    width: 80%;
    margin: auto;
+   padding-top: 35px;
 /*    background-color: powderblue; */
 }
 
